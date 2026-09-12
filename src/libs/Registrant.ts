@@ -4,6 +4,7 @@ interface Registrant {
   gender: string; 
   plan: string; 
   total: number;
+  extraItems: string[];
 }
 export type { Registrant };
 
